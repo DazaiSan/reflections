@@ -1,1 +1,3 @@
 Initialise repository - create folder for git information.
+
+Staging area is a temporary area between the working directory and repository.
