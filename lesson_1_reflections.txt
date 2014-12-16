@@ -1,0 +1,19 @@
+Using diff means the amount of text to be checked reduces significantly - only need to look at the changed lines.
+
+History of the file - enables you to retract mistakes, and look back at changes which you discarded at the time but want to consider again.
+
+When to save? All options if possible!  Regular, after major changes, after pauses, when I choose to do it.
+
+Pros of manual commit: I get to choose a sensible time to commit.
+Cons: I might forget (or be too impatient to get on with coding!).
+
+Multiple files?  git is aimed at projects, Google Docs at single documents.
+
+git log - view all changes in general terms.
+git diff - view specifics of changes.
+
+Version control means you can try things out and revert if problems occur.
+
+First git project: colour analysis in Python.
+
+
