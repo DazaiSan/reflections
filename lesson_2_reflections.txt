@@ -2,4 +2,8 @@ Initialise repository - create folder for git information.
 
 Staging area is a temporary area between the working directory and repository.
 
-Hello
+Staging area - add manually to ensure one commit per logical change.
+
+Branches - doing multiple things to the same base project.
+
+Merge when changes need to be combined.
