@@ -65,3 +65,22 @@ git merge master <branch>
     2. git merge master <branch>
     3. master now contains changes in <branch>
     4. conflicts will be flagged
+
+
+GitHub
+------
+
+git config --global credential.helper osxkeychain
+    keychain to prevent constant prompts for password
+
+New repository - go to website, add empty repository
+
+git remote
+    list remote repositories
+
+git remote add <name> <url>
+    add remote repository - "origin" is standard name for first
+    -v to show full details for fetch and push (usually the same)
+
+git push <remote> <branch>
+    pushes branch to remote (e.g. git push origin master)

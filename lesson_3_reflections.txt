@@ -1,1 +1,3 @@
 Advantage of remote repository - backed up!  Can use from multiple computers, too.
+
+Manual push/pull - multiple people working on a project, may not want to pull all changes at once?
