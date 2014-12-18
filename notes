@@ -1,0 +1,67 @@
+git init
+    initialise repository
+
+git log 
+    list commits
+    --stat to show stats
+    --graph to show graph
+    --oneline to reduce output
+git log <branch1> <branch2>
+    compare
+
+git diff <id1> <id2>
+    changes between commits
+    no arguments - shows differences between working directory and staging area
+    --staged (with no arguments) - shows differences between staging area and 
+        repository
+
+git clone <url>
+    download repository
+
+git config --global color.ui.auto
+    coloured output
+git config --global core.editor mvim -f
+    default editor (-f to make vim wait)
+
+git checkout <id>
+    restore to previous commit
+
+git status
+    shows status of repository
+
+git add <files>
+    add files to staging area
+
+git commit
+    saves staging area to repository
+
+git reset --hard
+    restores from repository (i.e. wipes any changes in working directory
+        or staging area since last commit).
+
+Branching
+---------
+
+git branch
+    show current branches
+
+git branch <name>
+    create new branch (doesn't switch to that branch!)
+
+git checkout <name>
+    switch to branch (local or remote)
+
+git checkout -b <name>
+    creates new branch and switches to it.
+
+git log will track back to parents of current branch(es).
+
+Merging
+-------
+
+git merge master <branch> 
+    merges <branch> and master into whatever the current branch is:
+    1. check out master
+    2. git merge master <branch>
+    3. master now contains changes in <branch>
+    4. conflicts will be flagged
